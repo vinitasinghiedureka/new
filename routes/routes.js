@@ -4,7 +4,7 @@ exports.home = (req,res) => {
         headline : 'We are always on a Clean Bengaluru mission'
     });
 }
-
+// headlines were not called properly
 
 exports.area = (req,res) => {
     var areaName = req.params.area;
